@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <body>
+         <title>HTML Forms</title>
+         <link rel = "stylesheet" href = "style.css">
+            <style>
+               h1 {
+               text-align: center;
+               }
+            </style>
+               <h1 style="color:red;">Bank Customer Churn Prediction</h1>
+                  <form action={{ url_for('predict')}} method="post"></form>
+            
+                     <img src="churn-images.jpg" alt="HTML5 Icon" style="width:150px;height:150px;">
+            <style>
+                 img {
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  }
+            </style>
+            <h3>Please enter customer's details:</h3>
+            <style>
+               h3 {
+               text-align: center;
+               }
+            </style>
+            <style>
+               form {
+               text-align: center;
+               }
+            </style>
+            <form>
+               Months Inactive:<br> <input type="text" name="Months_Inactive_12_mon">
+               <br>
+               Credit Limit:<br> <input type="text" name="Credit_Limit">
+               <br>
+               Total Revolving Balance:<br> <input type="text" name="Total_Revolving_Bal">
+               <br>
+               Total Transaction Amount:<br> <input type="text" name="Total_Trans_Amt">
+               <br>
+               Average Utilization Ratio:<br> <input type="text" name="Avg_Utilization_Ratio">
+               <br>
+            <input type="submit" value="Submit">
+         </form>
+      </body>
+   </html>

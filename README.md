@@ -1,4 +1,4 @@
-## Churn_prediction_Deployment
+## Churn_prediction_ML
 
 Objective: Customer churn occurs when customers stop doing business with a company. The objective of this project is to estimate whether a bank's customers leave the bank or not.
 

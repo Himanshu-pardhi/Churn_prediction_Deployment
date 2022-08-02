@@ -19,12 +19,11 @@ The steps that will be taken are:
 5. Deployment: Deployed the application on Heroku using Docker.
 
 ## Docker
-Docker installation
+- Docker installation
 
 - Create the Dockerfile to build the image and run the Flask application
 
 - Build the Docker image
-
 docker build -t flask-heroku-first
 docker run -d -p 5000:5000 flask-heroku-first
 
@@ -33,11 +32,6 @@ docker run -d -p 5000:5000 flask-heroku-first
 heroku container:push web --app churn-prediction-ml
 - release the container
 heroku container:release web --app churn-prediction-ml
-
-## Description of the python files:
-model.ipynb
-
-
 
 ## Required libraries: 
 For running the code we need to install the following libraries:

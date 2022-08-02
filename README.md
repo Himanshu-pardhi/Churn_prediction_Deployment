@@ -36,7 +36,7 @@ heroku container:push web --app churn-prediction-ml
 
 
 - release the container
-- 
+ 
 heroku container:release web --app churn-prediction-ml
 
 
